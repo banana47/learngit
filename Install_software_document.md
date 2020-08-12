@@ -46,6 +46,15 @@ sudo gedit /etc/apt/sources.list
 清华源网址：https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/
 如果出现异常，可以试下：sudo apt install -f
 
+# 上传github
+连接教程：https://www.yiibai.com/git/git_remote.html
+1.新建一个目录．　mkdir xxx
+2.初始化：git init
+3.添加文件：git add file
+4.提交到本地：git commit -m "注释"
+5．git remote add origin https://github.com/banana47/ubuntu_software_Install.git：(首次创建使用)
+6.git push
+
 
 
 
