@@ -83,7 +83,9 @@ sudo gedit /etc/apt/sources.list
 
 # conda 虚拟环境迁移
 1.首先要有一个已经创建好的虚拟环境，以MYvirtual为例；
+
 2.将Ｍyvirtural 移到服务器下/home/smpk/.conda/envs下，在./conda下，有一个envitonment.txt文件，需要将该虚拟环境的路径添加进去；
+
 ３．进入Myvirtual虚拟环境下，修改pip路径：https://blog.csdn.net/ganxiwu9686/article/details/98736127?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param
 
 	which pip
