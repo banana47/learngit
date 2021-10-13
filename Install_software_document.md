@@ -60,6 +60,14 @@ sudo gedit /etc/apt/sources.list
 4.提交到本地：git commit -m "注释"
 5．git remote add origin https://github.com/banana47/ubuntu_software_Install.git：(首次创建使用)
 6.git push
+｀｀｀
+echo "# CoarseToFineGAN" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/pankSM/CoarseToFineGAN.git
+｀｀｀
 
 # 离线安装
 ## 1.pytorch:https://blog.csdn.net/Suan2014/article/details/80410144
