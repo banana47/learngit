@@ -60,6 +60,8 @@ sudo gedit /etc/apt/sources.list
 4.提交到本地：git commit -m "注释"
 5．git remote add origin https://github.com/banana47/ubuntu_software_Install.git：(首次创建使用)
 6.git push
+
+
 ｀｀｀
 echo "# CoarseToFineGAN" >> README.md
 git init
