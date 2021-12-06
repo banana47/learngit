@@ -69,7 +69,7 @@ git branch -M main
 git remote add origin https://github.com/pankSM/CoarseToFineGAN.git
 ｀｀｀
 
-# 离线安装
+# 11.离线安装
 ## 1.pytorch:https://blog.csdn.net/Suan2014/article/details/80410144
 首先，到https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/linux-64/中下载所需的.tar.bz2，如果是环境python，就采用
             conda install --offline -n XXXX..tar.bz2
@@ -89,12 +89,12 @@ git remote add origin https://github.com/pankSM/CoarseToFineGAN.git
 3.当下载的话，需要判断是否在指定的虚拟环境中．
 4.在這個過程中最大的問題是把＂tensorflow=1.14.0" 錯記成＂tensorflow=1.4.0＂, 結果花了一天一夜時間，還沒正好．
 
-# conda 虚拟环境迁移
+# 12.conda 虚拟环境迁移
 1.首先要有一个已经创建好的虚拟环境，以MYvirtual为例；
 
 2.将Ｍyvirtural 移到服务器下/home/smpk/.conda/envs下，在./conda下，有一个envitonment.txt文件，需要将该虚拟环境的路径添加进去；
 
-３．进入Myvirtual虚拟环境下，修改pip路径：https://blog.csdn.net/ganxiwu9686/article/details/98736127?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param
+３．[进入Myvirtual虚拟环境下，修改pip路径](https://blog.csdn.net/ganxiwu9686/article/details/98736127?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param)
 
 	which pip
 	/home/pengwei/.conda/envs/py35/bin/pip
@@ -104,6 +104,23 @@ git remote add origin https://github.com/pankSM/CoarseToFineGAN.git
 
 	vim /home/pengwei/.conda/envs/py35/bin/pip
 	把#！后面的改成python的路径就好了
+
+# 13.[离线安装pip包](https://blog.csdn.net/T_NULL/article/details/89962588)
+
+1 安装pip：
+yum install python-pip
+2 下载离线包到packages文件夹下，自动解决依赖：
+pip download -d ./packages 包名
+3 从packages文件夹下安装离线包，自动解决依赖：
+pip install --no-index -f ./packages 包名
+4 根据requirements.txt文件下载离线包到packages文件夹：
+pip download -d ./packages -r requirements.txt
+5 源文件安装包：
+python setup.py install
+6 安装单个包文件
+pip install 包名
+ 
+
 
 
 
