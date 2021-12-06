@@ -1,30 +1,28 @@
-# ubuntu sodtware install and problem solutions
+**ubuntu sodtware install and problem solutions**
 
-#[tf 和keras对应的关系](https://docs.floydhub.com/guides/environments/)
+#1.[tf 和keras对应的关系](https://docs.floydhub.com/guides/environments/)
 
 
-# nvidia_cuda_cudnn install link
-https://blog.csdn.net/BigData_Mining/article/details/99670642#commentBox
+# 2.[nvidia_cuda_cudnn install link](https://blog.csdn.net/BigData_Mining/article/details/99670642#commentBox)
 
-# 双显卡笔记本安装双系统ubuntu开机、分辨率、卡logo、黑屏的解决方法
-https://blog.csdn.net/n66040927/article/details/79019891
 
-# cuda 历史版本
-https://developer.nvidia.com/cuda-toolkit-archive
+# 3.[双显卡笔记本安装双系统ubuntu开机、分辨率、卡logo、黑屏的解决方法](https://blog.csdn.net/n66040927/article/details/79019891
+)
 
-# ubuntu搜狗拼音安装教程
-https://blog.csdn.net/lupengCSDN/article/details/80279177
+# 4.[cuda 历史版本](https://developer.nvidia.com/cuda-toolkit-archive)
 
-# pycharm 安装教程
-https://blog.csdn.net/qq_15192373/article/details/81091278
+# 5.[ubuntu搜狗拼音安装教程](https://blog.csdn.net/lupengCSDN/article/details/80279177)
 
-# conda install 慢
+
+# 6.[pycharm 安装教程](https://blog.csdn.net/qq_15192373/article/details/81091278)
+
+
+#7.[conda install 慢](https://blog.csdn.net/watermelon1123/article/details/88122020)
 1.sudo gedit ~/.condarc
-  清华大学开源软件镜像站:https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/
-  link:https://blog.csdn.net/watermelon1123/article/details/88122020
+  [清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/)
 
-# git慢
-link:https://www.jianshu.com/p/3f6477049ece
+
+# 8. [git慢](https://www.jianshu.com/p/3f6477049ece)
 ## 思路：
 git clone特别慢是因为github.global.ssl.fastly.net域名被限制了。只要找到这个域名对应的ip地址，然后在hosts文件中加上ip–>域名的映射，刷新DNS缓存便可
 ## 方法：
@@ -44,15 +42,15 @@ Linux的hosts文件路径在：sudo vim /etc/hosts
 Winodws系统的做法：打开CMD，输入ipconfig /flushdns
 Linux的做法：在终端输入sudo /etc/init.d/networking restart
 
-# 换源
+# 9.换源
 sudo gedit /etc/apt/sources.list
 
-清华源网址：https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/
+[清华源网址](https://mirrors.tuna.tsinghua.edu.cn/help/ubuntu/)
 
 如果出现异常，可以试下：sudo apt install -f
 
-# 上传github
-连接教程：https://www.yiibai.com/git/git_remote.html
+# 10.上传github
+[连接教程](https://www.yiibai.com/git/git_remote.html)
 
 1.新建一个目录．　mkdir xxx
 2.初始化：git init
