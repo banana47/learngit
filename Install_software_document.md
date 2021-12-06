@@ -108,16 +108,27 @@ git remote add origin https://github.com/pankSM/CoarseToFineGAN.git
 # 13.[离线安装pip包](https://blog.csdn.net/T_NULL/article/details/89962588)
 
 1 安装pip：
+
 yum install python-pip
+
 2 下载离线包到packages文件夹下，自动解决依赖：
+
 pip download -d ./packages 包名
+
 3 从packages文件夹下安装离线包，自动解决依赖：
+
 pip install --no-index -f ./packages 包名
+
 4 根据requirements.txt文件下载离线包到packages文件夹：
+
 pip download -d ./packages -r requirements.txt
+
 5 源文件安装包：
+
 python setup.py install
+
 6 安装单个包文件
+
 pip install 包名
  
 
