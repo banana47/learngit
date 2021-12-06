@@ -1,7 +1,7 @@
 # ubuntu sodtware install and problem solutions
 
-#tf 和keras对应的关系 
-https://docs.floydhub.com/guides/environments/
+#[tf 和keras对应的关系 ][https://docs.floydhub.com/guides/environments/]
+
 
 # nvidia_cuda_cudnn install link
 https://blog.csdn.net/BigData_Mining/article/details/99670642#commentBox
