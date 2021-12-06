@@ -6,8 +6,8 @@
 # 2.[nvidia_cuda_cudnn install link](https://blog.csdn.net/BigData_Mining/article/details/99670642#commentBox)
 
 
-# 3.[双显卡笔记本安装双系统ubuntu开机、分辨率、卡logo、黑屏的解决方法](https://blog.csdn.net/n66040927/article/details/79019891
-)
+# 3.[双显卡笔记本安装双系统ubuntu开机、分辨率、卡logo、黑屏的解决方法](https://blog.csdn.net/n66040927/article/details/79019891)
+
 
 # 4.[cuda 历史版本](https://developer.nvidia.com/cuda-toolkit-archive)
 
